@@ -38,7 +38,7 @@ and :doc:`Seeds <../dbmgmt/seeds>` to create more useful database setups later.
 A note of interest: a "slug", in the context of web publishing, is a 
 user- and SEO-friendly short text used in a URL to identify and describe a resource.
 
-The seed records might be something like:::
+The seed records might be something like::
 
 
     INSERT INTO news VALUES 
@@ -51,7 +51,7 @@ Connect to your database
 
 The local configuration file, ``.env``, that you created when you installed
 CodeIgniter, should have the database property settings uncommented and 
-set appropriately for the database you want to use.::
+set appropriately for the database you want to use::
 
     database.default.hostname = localhost
     database.default.database = ci4tutorial
